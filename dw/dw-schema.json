@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "_collection",
+    "name": "environments"
+  },
+  {
+    "_id": "_predicate",
+    "name": "environments/name",
+    "type": "string",
+    "doc": "Name of the environment"
+  },
+  {
+    "_id": "_collection",
+    "name": "monsters"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/name",
+    "type": "string",
+    "doc": "Name of monster"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/environment",
+    "type": "ref",
+    "restrictCollection": "environments"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/hp",
+    "type": "string",
+    "doc": "Health Points"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/attack_tags",
+    "type": "tag",
+    "multi": true
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/monster_tags",
+    "type": "tag",
+    "multi": true
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/description",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/armor",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/attack",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/damage",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/instinct",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/moves",
+    "type": "string",
+    "multi": true
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/page",
+    "type": "int"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/special_qualities",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "monsters/url",
+    "type": "string"
+  }
+]
