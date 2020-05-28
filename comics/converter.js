@@ -41,6 +41,7 @@ for (let comic of comics) {
 console.log(transactions);
 const output = JSON.stringify(transactions);
 
+// write transaction list to json file
 fs.writeFile("comics_seeds.json", output, err => {
   if (err) throw err;
   else console.log("file saved!")
