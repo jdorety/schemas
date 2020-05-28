@@ -1,0 +1,49 @@
+[
+  {
+    "_id": "_collection",
+    "name": "books"
+  },
+  {
+    "_id": "_collection",
+    "name": "publishers"
+  },
+
+  {
+    "_id": "_predicate",
+    "name": "publishers/name",
+    "type": "string",
+    "unique": true
+  },
+  {
+    "_id": "_predicate",
+    "name": "books/title",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "books/publisher",
+    "type": "ref",
+    "restrictCollection": "publishers"
+  },
+  {
+    "_id": "_predicate",
+    "name": "books/release_date",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "books/creators",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "books/price",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "books/diamond_id",
+    "type": "string",
+    "unique": true
+  }
+]
