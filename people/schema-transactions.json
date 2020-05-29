@@ -1,0 +1,94 @@
+[
+  {
+    "_id": "_collection",
+    "name": "person"
+  },
+  {
+    "_id": "_collection",
+    "name": "residence"
+  },
+  {
+    "_id": "_collection",
+    "name": "business"
+  },
+  {
+    "_id": "_collection",
+    "name": "city"
+  },
+
+  {
+    "_id": "_predicate",
+    "name": "person/first_name",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "person/last_name",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "person/age",
+    "type": "int"
+  },
+  {
+    "_id": "_predicate",
+    "name": "person/ss_num",
+    "type": "string",
+    "unique": true
+  },
+  {
+    "_id": "_predicate",
+    "name": "person/home",
+    "type": "ref",
+    "restrictCollection": "residence"
+  },
+  {
+    "_id": "_predicate",
+    "name": "person/favorite_places",
+    "type": "ref",
+    "multi": true
+  },
+  {
+    "_id": "_predicate",
+    "name": "person/birthdate",
+    "type": "instant"
+  },
+  {
+    "_id": "_predicate",
+    "name": "residence/street_address",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "residence/city",
+    "type": "ref",
+    "restrictCollection": "city"
+  },
+  {
+    "_id": "_predicate",
+    "name": "business/business_name",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "business/street_address",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "business/city",
+    "type": "ref",
+    "restrictCollection": "city"
+  },
+  {
+    "_id": "_predicate",
+    "name": "city/city_name",
+    "type": "string"
+  },
+  {
+    "_id": "_predicate",
+    "name": "city/state",
+    "type": "tag"
+  }
+]
