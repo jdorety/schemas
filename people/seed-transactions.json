@@ -1,0 +1,60 @@
+[
+  {
+    "_id": "person$jonathan",
+    "first_name": "Jonathan",
+    "last_name": "Dorety",
+    "age": 36,
+    "ss_num": "555-55-5555",
+    "home": "residence$jonathan",
+    "birthdate": 454532400,
+    "favorite_places": ["business$cloud9", "business$ssalefish"]
+  },
+  {
+    "_id": "residence$jonathan",
+    "street_address": "4027 Village Place",
+    "city": "city$winston"
+  },
+  {
+    "_id": "city$winston",
+    "city_name": "Winston-Salem",
+    "state": "NC"
+  },
+  {
+    "_id": "city$portland",
+    "city_name": "Portland",
+    "state": "OR"
+  },
+  {
+    "_id": "person$bill",
+    "first_name": "Bill",
+    "last_name": "Williamson",
+    "age": 62,
+    "ss_num": "555-55-5556",
+    "home": "residence$bill",
+    "birthdate": -352526400,
+    "favorite_places": ["business$heavenly"]
+  },
+  {
+    "_id": "person$bill",
+    "street_address": "4235 Burnside St",
+    "city": "city$portland"
+  },
+  {
+    "_id": "business$heavenly",
+    "business_name": "Heavenly Doughnuts",
+    "street_address": "504 NE 102nd Ave",
+    "city": "city$portland"
+  },
+  {
+    "_id": "business$cloud9",
+    "business_name": "Cloud 9 Comics",
+    "street_address": "2621 SE Clinton St",
+    "city": "city$portland"
+  },
+  {
+    "_id": "business$ssalefish",
+    "business_name": "Ssalefish Comics",
+    "street_address": "3242 Silas Creek Pkwy",
+    "city": "city$winston"
+  }
+]
